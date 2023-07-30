@@ -90,12 +90,6 @@
       }
     }
 
-    a.portfolio-link {
-      &:after {
-        content: 'PORTFOLIO';
-      }
-    }
-
     a.active {
       svg {
         color: #ffd700;
@@ -143,11 +137,11 @@
     height: auto;
     min-height: auto;
 
-     ul, nav {
+      ul, nav {
       display: none;
      }
 
-     nav {
+    nav {
       width: 100%;
       top: 0;
       left: 0;
@@ -185,6 +179,7 @@
         top: 15px;
         right: 15px;
         display: block;
+        z-index: 1;
      }
   }
 }

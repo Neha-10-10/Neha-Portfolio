@@ -77,12 +77,15 @@ const Sidebar = () => {
           </a>
         </li>
       </ul>
-      <FontAwesomeIcon 
-          onClick={() => setShowNav(true)}
-          icon={faBars}
-          color="#ffd700"
-          size="3x"
-          className='hamburger-icon' />
+        <i onClick={() => setShowNav(true)}>
+              <FontAwesomeIcon 
+              icon={faBars}
+              color="#ffd700"
+              size="3x"
+              className="hamburger-icon"
+              /> 
+        </i>
+  
     </div>
   )
 }
